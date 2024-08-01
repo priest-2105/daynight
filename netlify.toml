@@ -1,0 +1,12 @@
+[build]
+  base = "threex.daynight/examples"
+  publish = "threex.daynight/examples"
+  # Leave the build command empty if no build process is needed
+
+[functions]
+  directory = "threex.daynight/examples/netlify/functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/basic.html"
+  status = 200
